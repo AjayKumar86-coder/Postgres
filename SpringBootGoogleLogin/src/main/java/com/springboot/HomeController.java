@@ -21,4 +21,10 @@ public class HomeController
 	{
 		return principal;
 	}
+	
+	@RequestMapping("/homepage")
+	public String homePage() 
+	{
+		return "homepage";
+	}
 }
